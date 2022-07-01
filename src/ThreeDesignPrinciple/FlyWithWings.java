@@ -1,4 +1,4 @@
-package FirstAndSecondDesignPrinciple;
+package ThreeDesignPrinciple;
 
 public class FlyWithWings implements IFlyBehavior{
     public void fly() {

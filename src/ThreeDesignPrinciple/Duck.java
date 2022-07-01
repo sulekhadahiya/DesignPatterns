@@ -1,9 +1,15 @@
-package FirstAndSecondDesignPrinciple;
+package ThreeDesignPrinciple;
 
 public abstract class Duck{
     IFlyBehavior flyBehavior;
     IQuackBehavior quackBehavior;
     public Duck(){ }
+    public void setFlyBehavior(IFlyBehavior fb){
+        flyBehavior = fb;
+    }
+    public void setQuackBehavior(IQuackBehavior qb){
+        quackBehavior = qb;
+    }
     public abstract void display();
 
     public void performQuack(){

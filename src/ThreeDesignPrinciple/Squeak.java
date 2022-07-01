@@ -1,4 +1,4 @@
-package FirstAndSecondDesignPrinciple;
+package ThreeDesignPrinciple;
 
 public class Squeak implements IQuackBehavior{
     public void quack() {

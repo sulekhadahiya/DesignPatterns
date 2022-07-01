@@ -1,4 +1,4 @@
-package FirstAndSecondDesignPrinciple;
+package ThreeDesignPrinciple;
 
 public class RubberDuck extends Duck implements IQuackBehavior {
     public void display() {

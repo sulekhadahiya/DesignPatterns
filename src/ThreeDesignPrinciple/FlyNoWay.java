@@ -1,4 +1,4 @@
-package FirstAndSecondDesignPrinciple;
+package ThreeDesignPrinciple;
 
 public class FlyNoWay implements IFlyBehavior{
     public void fly() {

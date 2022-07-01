@@ -1,4 +1,4 @@
-package FirstAndSecondDesignPrinciple;
+package ThreeDesignPrinciple;
 
 public class RedheadDuck extends Duck implements IFlyBehavior, IQuackBehavior {
     @Override
