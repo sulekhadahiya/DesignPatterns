@@ -8,6 +8,8 @@ package ThreeDesignPrinciple;
 // DP3 - This gives you a lot more flexibility. It also lets you change behavior at runtime
 // DP3 - as long as the object you are composing with implements the correct behavior interface.
 
+//STRATEGY PATTERN : Defines a family of algorithms, encapsulates each one, and makes then interchangeable.
+//Strategy lets the algorithm vary independently of clients that use it.
 public class MiniDuckSimulator {
     public static void main(String[] args) {
         Duck mallard = new MallardDuck();
