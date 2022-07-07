@@ -1,4 +1,4 @@
-package ThreeDesignPrinciple;
+package StrategyPattern;
 
 public abstract class Duck{
     IFlyBehavior flyBehavior;

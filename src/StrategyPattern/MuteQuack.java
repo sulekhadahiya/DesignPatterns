@@ -1,4 +1,4 @@
-package ThreeDesignPrinciple;
+package StrategyPattern;
 
 public class MuteQuack implements IQuackBehavior{
     public void quack() {

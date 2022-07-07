@@ -1,4 +1,4 @@
-package ThreeDesignPrinciple;
+package StrategyPattern;
 
 public interface IFlyBehavior {
 

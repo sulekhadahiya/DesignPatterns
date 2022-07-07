@@ -1,4 +1,4 @@
-package ThreeDesignPrinciple;
+package StrategyPattern;
 
 public class FlyNoWay implements IFlyBehavior{
     public void fly() {

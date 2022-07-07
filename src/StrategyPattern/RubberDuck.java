@@ -1,4 +1,4 @@
-package ThreeDesignPrinciple;
+package StrategyPattern;
 
 public class RubberDuck extends Duck implements IQuackBehavior {
     public void display() {

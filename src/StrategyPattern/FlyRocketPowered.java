@@ -1,4 +1,4 @@
-package ThreeDesignPrinciple;
+package StrategyPattern;
 
 public class FlyRocketPowered implements IFlyBehavior{
     @Override
