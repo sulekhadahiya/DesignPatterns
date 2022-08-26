@@ -2,14 +2,14 @@ package DecoratorPattern;
 /*
 Design Principle : Classes should be open for extension, but
                     closed for modification.
+
+Decorator Pattern: attaches additional responsibilities to an object dynamically.
+Decorators provide a flexible alternative to subclassing for extending functionality.
  */
-public class Beverage {
-    public String description;
+public abstract class Beverage {
+    public String description = "Unknown Beverage";
     public String getDescription(){
         return this.description;
     }
-     public double cost()
-     {
-        return 12.50;
-     }
+     public abstract double cost();
 }
