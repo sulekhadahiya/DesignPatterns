@@ -1,0 +1,17 @@
+* InputStream (Abstract component)
+
+* Component to be decorated (Concrete components):
+(Base components from which to read bytes.)
+FileInputStream
+StringBufferInputStream
+ByteArrayInputStream
+ObjectInputStream
+
+* FilterInputStream (Abstract decorator)
+
+* Concrete decorators:
+BufferedInputStream (Adds buffering behavior to FileInputStream: it buffers input to improve performance.)
+ZipInputStream (Adds the ability to read zip file entries as it reads data from a zip file.)
+PushbackInputStream
+DataInputStream
+InflatorInputStream

@@ -17,7 +17,7 @@ package DecoratorPattern;
 public class DarkRoast extends Beverage{
 
     public DarkRoast(){
-        description = "Most Excellent Dark Roast";
+        description = "Dark Roast Coffee";
     }
     @Override
     public double cost() {
